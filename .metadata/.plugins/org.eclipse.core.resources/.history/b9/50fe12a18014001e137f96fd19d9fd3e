@@ -1,0 +1,19 @@
+package com.guest.mapper;
+
+import java.util.HashMap;
+import java.util.List;
+
+import com.guest.model.GuestVO;
+
+public interface GuestMapper {
+	//추가
+	public void insert(GuestVO guest);
+	//전체보기
+	public List<GuestVO> list(HashMap<String, String> hm);
+	//상세보기
+	public GuestVO findByNum(int num);
+	//수정
+	//삭제
+	//개수
+
+}

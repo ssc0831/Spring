@@ -1,0 +1,9 @@
+package com.guest.model;
+
+import java.util.List;
+
+public class GuestListVO {
+	private List<GuestVO> arr;
+	private int count ;
+
+}
